@@ -1,5 +1,5 @@
 ---
-title: [Grease|Tamper|Violent]Monkey Scripts
+title: "[Grease|Tamper|Violent]Monkey Scripts"
 layout: single
 ---
 
