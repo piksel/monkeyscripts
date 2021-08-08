@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Prisjakt Wide Compare
 // @namespace    https://github.com/piksel/monkeyscripts
-// @version      0.3
+// @version      0.4
 // @description  Use all available screen space when comparing products
 // @author       nils måsen
 // @match        https://www.prisjakt.nu/jamfor/produkter/*,*
@@ -33,5 +33,5 @@
 
     // Float sidebar above content
     $qcs(e => { e.style.marginLeft = '40px'; }, $csw`PageContent`);
-    $qcs(e => { e.style.width = 'auto';      }, $csw`Sidebar`);
+    $qcs(e => { e.style.minWidth = 'auto';   }, $csw`Sidebar`);
 })();
